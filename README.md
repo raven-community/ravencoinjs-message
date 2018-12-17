@@ -11,7 +11,7 @@ var ravencoinMessage = require('ravencoinjs-message')
 
 > sign(message, privateKey, compressed[, network.messagePrefix])
 
-Sign a Bitcoin message
+Sign a Ravencoin message
 ``` javascript
 var keyPair = ravencoin.ECPair.fromWIF('5KYZdUEo39z3FPrtuX2QbbwGnNP5zTd7yyr2SC1j299sBCnWjss')
 var privateKey = keyPair.privateKey
