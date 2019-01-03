@@ -33,7 +33,7 @@ function decodeSignature (buffer) {
 }
 
 function magicHash (message, messagePrefix) {
-  messagePrefix = messagePrefix || '\u0018Ravencoin Signed Message:\n'
+  messagePrefix = messagePrefix || '\x1aRavencoin Signed Message:\n'
   if (!Buffer.isBuffer(messagePrefix)) messagePrefix = Buffer.from(messagePrefix, 'utf8')
 
   var messageVISize = varuint.encodingLength(message.length)
