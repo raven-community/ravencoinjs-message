@@ -5,7 +5,7 @@
 ## Examples
 
 ``` javascript
-var ravencoin = require('ravencoinjs-lib') // v3.x.x
+var ravencoin = require('ravencoinjs-lib') // v1.x.x
 var ravencoinMessage = require('ravencoinjs-message')
 ```
 
