@@ -1,6 +1,6 @@
 {
   "name": "ravencoinjs-message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ravencoinjs-message",
   "keywords": [
     "ravencoinjs-message",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "bigi": "^1.4.1",
-    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib#master",
+    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib/tree/1.0.0",
     "standard": "*"
   },
   "engines": {
