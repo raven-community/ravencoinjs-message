@@ -6,9 +6,9 @@
     "ravencoinjs-message",
     "ravencoin"
   ],
-  "homepage": "https://github.com/raven-community/ravencoinjs-message",
+  "homepage": "https://github.com/kralverde/ravencoinjs-message",
   "bugs": {
-    "url": "https://github.com/raven-community/ravencoinjs-message/issues"
+    "url": "https://github.com/kralverde/ravencoinjs-message/issues"
   },
   "license": "MIT",
   "files": [
@@ -17,7 +17,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/raven-community/ravencoinjs-message.git"
+    "url": "https://github.com/kralverde/ravencoinjs-message.git"
   },
   "scripts": {
     "prepare": "npm run test",
